@@ -75,4 +75,9 @@ public abstract class WordLibrary {
      * @return true if the guess was correct; false otherwise
      */
     public abstract boolean isCorrect(int idx, String usuarioInvitado);
+    
+    //ESTO ES EL PRIMER COMMIT
+    int a;
+    int b;
+    int result=a+b;
 }
