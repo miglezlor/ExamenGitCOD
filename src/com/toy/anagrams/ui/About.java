@@ -35,14 +35,13 @@ import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.awt.event.ActionListener;
-import javax.swing.JDialog;
-import javax.swing.JFrame;
+import javax.swing.*; //importar todas las clases del paquete 
 
 /**
  * About dialog of the Anagram Game application.
  */
 public class About extends JDialog {
-
+    
     /** Creates new form About */
     public About(JFrame parent) {
         super(parent,true);
