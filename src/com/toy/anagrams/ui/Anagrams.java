@@ -36,6 +36,7 @@ import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.Toolkit;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
 /**
@@ -66,7 +67,11 @@ public class Anagrams extends JFrame {
             java.util.logging.Logger.getLogger(Anagrams.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+        
+        //Este es el tercer commit
+        String pensamiento="Esto es un examen";
+        JOptionPane.showMessageDialog(null, pensamiento);
+        
         /* Create and display the form */
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
